@@ -1,0 +1,188 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+}
+
+thead {
+  text-align: center;
+  font-weight: bold;
+}
+
+tbody {  
+  text-align: center;
+}
+
+textarea {
+  resize: none;  
+}
+
+table {
+  width: auto;
+  min-width: 1000px;
+}
+
+#navbar {
+  margin-bottom: 50px;
+}
+
+#header {
+  margin-bottom: 100px;
+}
+
+#procedure {
+  width: auto;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#keunggulan {
+  margin-bottom: 100px;
+}
+
+#about, #contact {
+  margin: 100px auto;
+}
+
+.overflow {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.title-hr {
+  border-top: 5px;
+  border-style: dotted;
+  border-color: #5f939a;
+  width: 100px;
+}
+
+.title {
+  margin: 50px auto;
+}
+
+.header {
+  margin: 100px 0;
+}
+
+.jumbotron {
+  margin-bottom: 50px;
+}
+
+.image-slider {
+  width: 100%;
+  height: 400px;
+  background-color: #5f939a;
+}
+
+.image-procedure {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: #5f939a;
+}
+
+.keunggulan-image {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 100%;
+  background-color: #5f939a;
+  margin-bottom: 50px;
+}
+
+.pelayanan-image {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #5f939a;
+  margin-bottom: 50px;
+}
+
+.about-image {
+  width: auto;
+  margin: auto auto 30px auto;
+  height: 300px;
+  background-color: #5f939a;
+}
+
+.big-image-about {
+  width: auto;
+  height: 400px;
+  margin: auto;
+  background-color: #5f939a;
+}
+
+.about-small-image {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  background-color: #5f939a;
+  margin-bottom: 50px;
+}
+
+.locations {
+  margin: 50px auto;
+}
+
+.row-content {
+  margin-bottom: 50px;
+}
+
+.col-content {
+  padding: 20px;
+}
+
+.place {
+  padding: 20px;
+}
+
+.about-video {
+  margin: 100px auto;
+}
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .image-slider {
+    width: 100%;
+    height: 200px;
+    background-color: #5f939a;
+  }
+
+  .display-4 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .big-image-about {
+    height: 300px;
+  }
+
+  .about-image {
+    width: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-image {
+    height: 200px;
+    width: auto;
+  }
+
+  .big-image-about {
+    height: 200px;
+    width: auto;
+  }
+
+  .about-small-image {
+    width: auto;
+  }
+}
